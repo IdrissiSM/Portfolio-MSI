@@ -10,7 +10,7 @@ import {
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { FaUserGraduate } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 import pdf from "../Assets/CV-SGHIOURI_EL_IDRISSI_Mohammed.pdf";
 import logo from "../Assets/logo.png";
@@ -80,7 +80,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link onClick={() => scrollToSection("formation")}>
-                <FaUserGraduate style={{ marginBottom: "2px" }} /> Formation
+                <FaGraduationCap style={{ marginBottom: "2px" }} /> Formation
               </Nav.Link>
             </Nav.Item>
 
