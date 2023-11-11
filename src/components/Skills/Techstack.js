@@ -92,6 +92,9 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons">
           <i class="devicon-firebase-plain"></i>
         </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <i class="devicon-mongodb-plain"></i>
+        </Col>
       </Row>
       <Row>
         <h1 className="project-heading">
